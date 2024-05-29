@@ -1,0 +1,18 @@
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.blink-cursor {
+  font-weight: 100;
+  font-size: 1em;
+  color: #000;
+  /* Adjust to your preferred color */
+  animation: blink 0.7s infinite;
+}
