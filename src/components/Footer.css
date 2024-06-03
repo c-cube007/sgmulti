@@ -1,0 +1,27 @@
+.custom-list {
+    list-style-type: none;
+    /* Remove default bullets */
+    padding-left: 0;
+}
+
+.custom-list li {
+    position: relative;
+    padding-left: 2rem;
+    /* Adjust the padding to fit the logo */
+}
+
+.custom-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.5rem;
+    /* Adjust the width of the logo */
+    height: 1.5rem;
+    /* Adjust the height of the logo */
+    background-image: url("../assets/logo.png");
+    /* Path to your logo */
+    background-size: contain;
+    background-repeat: no-repeat;
+}

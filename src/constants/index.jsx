@@ -48,14 +48,17 @@ export const features = [
 ];
 
 export const resourcesLinks = [
-  { href: "https://www.sgmultinational.com/", text: "S.G Oseni Foundation" },
+  {
+    href: "https://www.sgmultinational.com/sgfoundation",
+    text: "S.G Oseni Foundation",
+  },
   {
     href: "https://www.sgmultinational.com/sgtransport",
     text: "S.G. Transportation and Logistics",
   },
   {
     href: "https://www.sgmultinational.com/sgentertainment",
-    text: "S.G. Entertainment Promotion and Instrument Services",
+    text: "S.G. Entertainment Promotion and Instruments Services",
   },
   {
     href: "https://www.sgmultinational.com/sgoilandgas",
