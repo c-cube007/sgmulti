@@ -12,7 +12,7 @@
 .blink-cursor {
   font-weight: 100;
   font-size: 1em;
-  color: #1078c8;
+  color: #1610c8;
   /* Adjust to your preferred color */
   animation: blink 0.7s infinite;
 }
