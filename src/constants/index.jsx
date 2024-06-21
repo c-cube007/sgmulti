@@ -29,7 +29,7 @@ export const features = [
     title: "S.G. Foundation",
     description:
       "Empowering communities through education, healthcare, and sustainable development projects.",
-    link: "https://www.sgmultinational.com",
+    link: "https://www.sgmultinational.com//sgfoundation",
   },
   {
     logo: <img src={logo3} alt="Oil & Gas Logo" className="h-10 w-10" />,
