@@ -1,4 +1,6 @@
+// src/components/AudioPlayer.jsx
 import React, { useEffect, useRef } from "react";
+import backgroundMusic from "../assets/background-music.mp3"; // Import the music file
 
 const AudioPlayer = () => {
   const audioRef = useRef(null);
@@ -9,7 +11,7 @@ const AudioPlayer = () => {
 
   return (
     <audio ref={audioRef} loop>
-      <source src="./src/assets/background-music.mp3" type="audio/mpeg" />
+      <source src={backgroundMusic} type="audio/mpeg" />
       Your browser does not support the audio element.
     </audio>
   );
