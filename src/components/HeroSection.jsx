@@ -29,7 +29,7 @@ const HeroSection = () => {
       setDisplayedText(
         isDeleting
           ? currentPhrase.substring(0, displayedText.length - 1)
-          : currentPhrase.substring(0, displayedText.length + 1)
+          : currentPhrase.substring(0, displayedText.length + 1),
       );
 
       if (!isDeleting && displayedText === currentPhrase) {
@@ -83,7 +83,7 @@ const HeroSection = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
             <a
-              href="https://www.sgmultinational.com/"
+              href="https://sgmultinational.com/sgfoundation/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-6 py-3 text-lg rounded hover:bg-blue-700"
