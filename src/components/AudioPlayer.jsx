@@ -1,4 +1,3 @@
-// src/components/AudioPlayer.jsx
 import React, { useEffect, useRef } from "react";
 
 const AudioPlayer = () => {
@@ -10,7 +9,7 @@ const AudioPlayer = () => {
 
   return (
     <audio ref={audioRef} loop>
-      <source src="/assets/background-music.mp3" type="audio/mpeg" />
+      <source src="./src/assets/background-music.mp3" type="audio/mpeg" />
       Your browser does not support the audio element.
     </audio>
   );
