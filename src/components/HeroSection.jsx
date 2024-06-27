@@ -83,7 +83,7 @@ const HeroSection = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
             <a
-              href="https://sgmultinational.com/"
+              href="https://sgmultinational.com/sgfoundation"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-6 py-3 text-lg rounded hover:bg-blue-700"
