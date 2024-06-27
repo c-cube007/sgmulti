@@ -88,7 +88,7 @@ const HeroSection = () => {
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-6 py-3 text-lg rounded hover:bg-blue-700"
             >
-              Go to Website
+              Go to 
             </a>
           </div>
         </div>
